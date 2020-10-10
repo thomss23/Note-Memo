@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>NoteMemo</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<script src="https://kit.fontawesome.com/221ffd95ce.js" crossorigin="anonymous"></script>
+	<link href="https://fonts.googleapis.com/css?family=Schoolbell&v1" rel="stylesheet">
+	  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
+</head>
+<body>
+<nav class="navbar">
+	<ul class="main-nav">
+		<li><a id="new" href="#"><i class="far fa-file"> New file</i></a></li>
+		<li><a id="undo" href="#"><i class="fas fa-undo"> Undo</i></a></li>
+		<li><a id="redo" href="#"><i class="fas fa-redo"> Redo</i></a></li>
+		<li><a download="notes.txt" id="downloadlink" href="#"><i class="far fa-save"> Save file</i></a></li>
+	</ul>
+</nav>
+<div class="notes">
+	<h1>Note Memo</h1>
+	<textarea id="input"></textarea>
+</div>
+<div class="footer-container">
+	<hr>
+	<footer>By Thomas Borbeli</footer>
+</div>
+
+
+<script src="UndoRedo.js"></script>
+<script type="text/javascript" src="script.js"></script>
+</body>
+</html>
